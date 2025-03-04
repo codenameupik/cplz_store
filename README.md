@@ -1,3 +1,3 @@
 # cplz_store
 
-A new Flutter project.
+ecommerce app with flutter & firebase
