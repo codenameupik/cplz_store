@@ -6,8 +6,8 @@ class CImages {
       'assets/logos/t-store-splash-logo-white.png';
 
   //Social Logos
-  static const String google = 'assets/images/google-icon.png';
-  static const String facebook = 'assets/images/facebook-icon.png';
+  static const String google = 'assets/logos/google-icon.png';
+  static const String facebook = 'assets/logos/facebook-icon.png';
 
   //OnBoarding Images
   static const String onBoardingImage1 =
