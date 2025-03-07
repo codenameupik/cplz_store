@@ -1,4 +1,4 @@
-class CText {
+class CTexts {
   //Global Texts
 
   //OnBoarding Texts
