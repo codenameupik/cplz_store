@@ -23,7 +23,12 @@ class OnBoardingController extends GetxController {
       // Get.to(LoginScreen());
     } else {
       int page = currentPageIndex.value + 1;
-      pageController.jumpToPage(page);
+      //pageController.jumpToPage(page);
+      pageController.animateToPage(
+        page,
+        duration: const Duration(milliseconds: 300),
+        curve: Curves.easeInOut,
+      );
     }
   }
 
