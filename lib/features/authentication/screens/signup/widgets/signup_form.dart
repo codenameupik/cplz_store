@@ -1,7 +1,9 @@
 import 'package:cplz_store/features/authentication/screens/signup/widgets/terms_conditions_checkbox.dart';
+import 'package:cplz_store/features/authentication/screens/signup/verify_email.dart';
 import 'package:cplz_store/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:cplz_store/utils/constants/sizes.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 class CSignupForm extends StatelessWidget {
@@ -82,7 +84,7 @@ class CSignupForm extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: ElevatedButton(
-              onPressed: () {},
+              onPressed: () => Get.to(() => const VerifyEmailScreen()),
               child: const Text(CTexts.createAccount),
             ),
           ),
