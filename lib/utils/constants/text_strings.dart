@@ -19,7 +19,7 @@ class CTexts {
   //Authentication Form Text
   static const String firstName = "First Name";
   static const String lastName = "Last Name";
-  static const String email = "Email";
+  static const String email = "E-mail";
   static const String password = "Password";
   static const String newPassword = "New Password";
   static const String username = "Username";
@@ -32,6 +32,7 @@ class CTexts {
   static const String orSignUpWith = "or sign up with";
   static const String iAgreeTo = "I agree to";
   static const String privacyPolicy = "Privacy Policy";
+  static const String and = "and";
   static const String termsOfUse = "Terms of use";
   static const String verificationCode = "verificationCode";
   static const String resendEmail = "Resend Email";

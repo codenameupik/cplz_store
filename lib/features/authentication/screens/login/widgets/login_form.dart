@@ -1,6 +1,8 @@
+import 'package:cplz_store/features/authentication/screens/signup/signup.dart';
 import 'package:cplz_store/utils/constants/sizes.dart';
 import 'package:cplz_store/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 class CLoginForm extends StatelessWidget {
@@ -62,7 +64,8 @@ class CLoginForm extends StatelessWidget {
             SizedBox(
                 width: double.infinity,
                 child: OutlinedButton(
-                    onPressed: () {}, child: const Text(CTexts.createAccount))),
+                    onPressed: () => Get.to(const SignupScreen()),
+                    child: const Text(CTexts.createAccount))),
             //const SizedBox(height: CSizes.spaceBtwSections),
           ],
         ),
