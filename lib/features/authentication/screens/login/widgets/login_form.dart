@@ -1,5 +1,6 @@
 import 'package:cplz_store/features/authentication/screens/password_configuration/forget_password.dart';
 import 'package:cplz_store/features/authentication/screens/signup/signup.dart';
+import 'package:cplz_store/navigation_menu.dart';
 import 'package:cplz_store/utils/constants/sizes.dart';
 import 'package:cplz_store/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
@@ -60,7 +61,8 @@ class CLoginForm extends StatelessWidget {
             SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
-                    onPressed: () {}, child: const Text(CTexts.signIn))),
+                    onPressed: () => Get.to(() => const NavigationMenu()),
+                    child: const Text(CTexts.signIn))),
             const SizedBox(height: CSizes.spaceBtwItems),
             //Create Account Button
             SizedBox(
