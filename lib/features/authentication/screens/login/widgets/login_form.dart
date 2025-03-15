@@ -1,3 +1,4 @@
+import 'package:cplz_store/features/authentication/screens/password_configuration/forget_password.dart';
 import 'package:cplz_store/features/authentication/screens/signup/signup.dart';
 import 'package:cplz_store/utils/constants/sizes.dart';
 import 'package:cplz_store/utils/constants/text_strings.dart';
@@ -49,7 +50,8 @@ class CLoginForm extends StatelessWidget {
 
                 //Forget Password
                 TextButton(
-                    onPressed: () {}, child: const Text(CTexts.forgetPassword)),
+                    onPressed: () => Get.to(() => const ForgetPassword()),
+                    child: const Text(CTexts.forgetPassword)),
               ],
             ),
             const SizedBox(height: CSizes.spaceBtwSections),

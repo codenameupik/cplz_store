@@ -3,6 +3,7 @@ class CTexts {
   static const String submit = "Submit";
   static const String appName = "CPLZ Store";
   static const String cContinue = "Continue";
+  static const String done = "Done";
 
   //OnBoarding Texts
   static const String onBoardingTitle1 = "Choose your product";
@@ -48,7 +49,7 @@ class CTexts {
       "Dont worry sometimes people can forget too, enter your email and we will send you a password reset link";
   static const String changeYourPasswordTitle = "Password Reset Email Sent";
   static const String changeYourPasswordSubTitle =
-      "Your Account Security is our Priority!";
+      "Your Account Security is our Priority! We've sent You a Secure Link to Safely Change Your Passwordd and Keep Your Account Protected";
   static const String confirmEmail = "Verify your email address";
   static const String confirmEmailSubTitle =
       "Congatulations! Your Account Awaits, Verify Your Email to Start Shopping and Experience a World of Unrivaled Deals and Personalized Offers";
