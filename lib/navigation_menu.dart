@@ -1,4 +1,4 @@
-import 'package:cplz_store/features/shop/screens/home.dart';
+import 'package:cplz_store/features/shop/screens/home/home.dart';
 import 'package:cplz_store/utils/constants/colors.dart';
 import 'package:cplz_store/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
