@@ -1,9 +1,11 @@
 class CTexts {
   //Global Texts
+  static const String and = "and";
+  static const String skip = "Skip";
+  static const String done = "Done";
   static const String submit = "Submit";
   static const String appName = "CPLZ Store";
   static const String cContinue = "Continue";
-  static const String done = "Done";
 
   //OnBoarding Texts
   static const String onBoardingTitle1 = "Choose your product";
@@ -33,7 +35,6 @@ class CTexts {
   static const String orSignUpWith = "or sign up with";
   static const String iAgreeTo = "I agree to";
   static const String privacyPolicy = "Privacy Policy";
-  static const String and = "and";
   static const String termsOfUse = "Terms of use";
   static const String verificationCode = "verificationCode";
   static const String resendEmail = "Resend Email";
@@ -59,4 +60,7 @@ class CTexts {
       "Your Account Successfully Created";
   static const String yourAccountCreatedSubTitle =
       "Welcome to a World of Limitless Choices - Your Perfect Product Awaits!";
+
+  static const String homeAppBarTitle = "Good day for shopping";
+  static const String homeAppBarSubTitle = "John Cena";
 }
